@@ -1,0 +1,21 @@
+A class should be open for extension but closed for modification 
+
+considered a 
+    
+
+    PROUDUCT           CART                    InversePrinter
+    name            <-   cardprice         <-      Print Invoice()
+    price 
+
+                        |
+
+                      DB Storage
+                      savetoDB();     also want to include the savetoMongo() and savetofile() so this principle tells us that 
+                      We are open for extensions but not for modifications 
+
+
+
+                      This can be solved using Inheritance , Abstraction and Polymorphism
+
+                      If I created a DB Storage as the abstract class then simply the savetoMango() and savetofile() can be 
+                      become class 

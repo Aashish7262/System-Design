@@ -1,0 +1,1 @@
+Adapter allows two incompatible interfaces to work together without modifying the existing classes.
